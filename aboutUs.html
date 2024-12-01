@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contractor</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/aboutUs.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+
+<body>
+    <div id="bg-light-green">
+        <section class="section-header p-4 d-flex flex-column position-absolute top-0 col-12 col-lg-12">
+            <div class="top d-flex flex-row align-items-center justify-content-between mb-5 pb-5 col-12 col-lg-12">
+                <div class="menu helvetica col-4 col-lg-4">
+                    <a class="text-decoration-none" data-bs-toggle="offcanvas" href="#offcanvasMenu"
+                        aria-controls="offcanvasExample">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column align-items-start justify-content-start px-5">
+                            <a class="text-decoration-none text-white fs-1 my-3" href="#">Home</a>
+                            <a class="text-decoration-none text-white fs-1 my-3" href="#">Our Services</a>
+                            <a class="text-decoration-none text-white fs-1 my-3" href="#">Project Spotlight</a>
+                            <a class="text-decoration-none text-white fs-1 my-3" href="#">About Us</a>
+                            <a class="text-decoration-none text-white fs-1 my-3" href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-flex d-none helvetica flex-column align-items-center col-4 col-lg-4">
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 70 160 60" viewBox="20 70 160 60" height="30"
+                        width="80" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="img" aria-label="Homepage"
+                        fill="black">
+                        <g>
+                            <path
+                                d="M179.503 129.032h-7.926V89.294a.49.49 0 0 0-.497-.484h-24.155V77.45l16.977 5.897a.502.502 0 0 0 .635-.294.48.48 0 0 0-.301-.618l-35.719-12.407a.505.505 0 0 0-.261-.019l-99.637 18.81a.485.485 0 0 0-.393.567.494.494 0 0 0 .582.383l8.268-1.561v11.608h-8.362a.49.49 0 0 0-.497.484v28.732h-7.72c-.275 0-.497.216-.497.484s.222.484.497.484h159.006c.275 0 .497-.216.497-.484s-.222-.484-.497-.484zm-8.92-5.648h-30.232V95.981h30.232v27.403zM38.07 88.021l90.241-17.036 17.62 6.12V88.81H87.263a.49.49 0 0 0-.497.484v10.522H38.07V88.021zm-8.859 20.367h35.985v9.638H29.211v-9.638zm0 10.606h36.481a.49.49 0 0 0 .497-.484v-10.606a.49.49 0 0 0-.497-.484H29.211v-6.636h90.425v28.248h-8.045V118.51a.49.49 0 0 0-.497-.484H89.523a.49.49 0 0 0-.497.484v10.522H29.211v-10.038zm74.401 10.038h-6.289v-10.038h6.289v10.038zm-7.283 0H90.02v-10.038h6.309v10.038zm8.277 0v-10.038h5.991v10.038h-5.991zm15.527-29.216H87.76V89.778h82.823v5.235h-30.729a.49.49 0 0 0-.497.484v28.37a.49.49 0 0 0 .497.484h30.729v4.68H120.63V100.3a.49.49 0 0 0-.497-.484z">
+                            </path>
+                        </g>
+                    </svg>
+                    <a class="text-decoration-none text-black fw-lighter">Finnegan & Fahr</a>
+                </div>
+                <div class="text-nowrap col-5 col-sm-4 col-lg-4">
+                    <a class="text-decoration-none text-black d-flex flex-row align-items-center justify-content-end"
+                        href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                            class="bi bi-arrow-right me-2" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                        <span class="helvetica">Get a Quote</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section-top-content p-4 mt-5 d-flex flex-column mx-auto col-12 col-md-10 col-lg-8">
+            <span class="d-block fs-4 mb-4">About Finnegan & Fahr</span>
+            <span class="d-block display-2 mb-5 spacegrotesk">The Birth of Craftsmanship:<br>Where It All Started</span>
+            <div class="d-flex flex-column align-items-end fw-light">
+                <p class="col-10 col-md-8 col-lg-7 fs-5 mb-4">This is a space to share more about the business. Take
+                    advantage of this long text to tell people who's behind it, what it does, how it began, and other
+                    details. It's an excellent place to share the story behind the business and describe what this site
+                    has to offer its visitors.
+                </p>
+                <p class="col-10 col-md-8 col-lg-7 fs-5 mb-5">You can write about the business's history here, from its
+                    founding until now. Draw readers in with an engaging narrative. By telling its story, you can help
+                    people connect to the business. Share what inspired its creation and what need it was meant to fill.
+                    You can include details of the obstacles it overcame to get where it is today.
+                </p>
+                <p class="col-10 col-md-8 col-lg-7 fs-5 mb-4">This space is also a good spot to talk about a particular
+                    feature of the business that sets it apart from its competitors. Explain to readers what makes this
+                    business unique and why they should choose it over other options. Focus on the value this business
+                    can offer its users.
+                </p>
+                <p class="col-10 col-md-8 col-lg-7 fs-5 mb-4">Let visitors to this website know that they'll find what
+                    they're looking for right here. Present the business as the solution to a specific problem and
+                    highlight the ways the business's products or services can make life better for people.
+                </p>
+            </div>
+        </section>
+        <div class="parallax-about-us col-11 col-sm-11 mx-auto my-5"></div>
+    </div>
+    <section class="section-about-us-content mx-auto col-12 col-sm-12">
+        <div class="all d-flex flex-column align-items-start justify-content-start mx-auto col-10 col-sm-10">
+            <div class="mb-3">
+                <h2 class="fw-light fs-4">Our Process</h2>
+            </div>
+            <div class="each my-4">
+                <div class="title d-flex flex-row align-items-center justify-content-startm">
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="19.588 20.146 159.561 159.541"
+                        viewBox="19.588 20.146 159.561 159.541" height="41" width="41"
+                        xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true"
+                        aria-label="">
+                        <g>
+                            <path
+                                d="M170.281 20.146v144.371L25.892 20.16l-6.27 6.268 144.421 144.393H19.588v8.866h159.561V20.146h-8.868z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="display-2 ms-5 my-5">
+                        Initial Assessment
+                    </span>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-between col-12 col-sm-12">
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">01</span>
+                            <span class="ms-4 fw-bold">Design-Build</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">02</span>
+                            <span class="ms-4 fw-bold">Scheduling</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">03</span>
+                            <span class="ms-4 fw-bold">Estimating & Budgeting</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="each my-4">
+                <div class="title d-flex flex-row align-items-center justify-content-startm">
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="19.588 20.146 159.561 159.541"
+                        viewBox="19.588 20.146 159.561 159.541" height="41" width="41"
+                        xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true"
+                        aria-label="">
+                        <g>
+                            <path
+                                d="M170.281 20.146v144.371L25.892 20.16l-6.27 6.268 144.421 144.393H19.588v8.866h159.561V20.146h-8.868z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="display-2 ms-5 my-5">
+                        Construction
+                    </span>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-between col-12 col-sm-12">
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">01</span>
+                            <span class="ms-4 fw-bold">Quality Control</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">02</span>
+                            <span class="ms-4 fw-bold">Safety Management</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">03</span>
+                            <span class="ms-4 fw-bold">Final Assembly</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="each my-4">
+                <div class="title d-flex flex-row align-items-center justify-content-startm">
+                    <svg preserveAspectRatio="xMidYMid meet" data-bbox="19.588 20.146 159.561 159.541"
+                        viewBox="19.588 20.146 159.561 159.541" height="41" width="41"
+                        xmlns="http://www.w3.org/2000/svg" data-type="shape" role="presentation" aria-hidden="true"
+                        aria-label="">
+                        <g>
+                            <path
+                                d="M170.281 20.146v144.371L25.892 20.16l-6.27 6.268 144.421 144.393H19.588v8.866h159.561V20.146h-8.868z">
+                            </path>
+                        </g>
+                    </svg>
+                    <span class="display-2 ms-5 my-5">
+                        Post-Construction
+                    </span>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-between col-12 col-sm-12">
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">01</span>
+                            <span class="ms-4 fw-bold">Completion Report</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">02</span>
+                            <span class="ms-4 fw-bold">As-built Documentation</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="each d-flex flex-column align-items-start justify-content-start p-3 col-4 col-lg-4">
+                        <div class="top d-flex flex-row align-items-center justify-content-between my-4">
+                            <span class="">03</span>
+                            <span class="ms-4 fw-bold">Warranty</span>
+                        </div>
+                        <div class="bottom">
+                            <p class="">
+                                I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you
+                                to tell a story and let your users know a little more about you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="section-footer p-4 col-12 col-lg-12">
+        <div class="top d-md-flex flex-row align-items-start p-4">
+            <div data-aos="fade-up" data-aos-duration="1000" class="mx-auto col-6 col-sm-4 col-lg-2">
+                <img class="w-100" src="assets/images/img.png">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"
+                class="mx-auto col-12 col-sm-4 col-lg-4 d-flex flex-column align-items-center justify-content-center">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 70 160 60" viewBox="20 70 160 60" height="30"
+                    width="80" xmlns="http://www.w3.org/2000/svg" data-type="shape" role="img" aria-label="Homepage"
+                    fill="white">
+                    <g>
+                        <path
+                            d="M179.503 129.032h-7.926V89.294a.49.49 0 0 0-.497-.484h-24.155V77.45l16.977 5.897a.502.502 0 0 0 .635-.294.48.48 0 0 0-.301-.618l-35.719-12.407a.505.505 0 0 0-.261-.019l-99.637 18.81a.485.485 0 0 0-.393.567.494.494 0 0 0 .582.383l8.268-1.561v11.608h-8.362a.49.49 0 0 0-.497.484v28.732h-7.72c-.275 0-.497.216-.497.484s.222.484.497.484h159.006c.275 0 .497-.216.497-.484s-.222-.484-.497-.484zm-8.92-5.648h-30.232V95.981h30.232v27.403zM38.07 88.021l90.241-17.036 17.62 6.12V88.81H87.263a.49.49 0 0 0-.497.484v10.522H38.07V88.021zm-8.859 20.367h35.985v9.638H29.211v-9.638zm0 10.606h36.481a.49.49 0 0 0 .497-.484v-10.606a.49.49 0 0 0-.497-.484H29.211v-6.636h90.425v28.248h-8.045V118.51a.49.49 0 0 0-.497-.484H89.523a.49.49 0 0 0-.497.484v10.522H29.211v-10.038zm74.401 10.038h-6.289v-10.038h6.289v10.038zm-7.283 0H90.02v-10.038h6.309v10.038zm8.277 0v-10.038h5.991v10.038h-5.991zm15.527-29.216H87.76V89.778h82.823v5.235h-30.729a.49.49 0 0 0-.497.484v28.37a.49.49 0 0 0 .497.484h30.729v4.68H120.63V100.3a.49.49 0 0 0-.497-.484z">
+                        </path>
+                    </g>
+                </svg>
+                <a class="text-decoration-none text-white fw-lighter">Finnegan & Fahr</a>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000"
+                class="d-flex flex-column align-items-start mx-auto col-lg-2">
+                <a class="text-decoration-none text-white" href="#">Home</a>
+                <a class="text-decoration-none text-white" href="#">Our Services</a>
+                <a class="text-decoration-none text-white" href="#">Project Spotlight</a>
+                <a class="text-decoration-none text-white" href="#">About Us</a>
+                <a class="text-decoration-none text-white" href="#">Contact</a>
+
+                <a class="text-decoration-none text-white mt-4" href="mailto:Info@mysite.com">Info@mysite.com</a>
+                <span class="text-white d-block">Tel: 123-456-7890</span>
+                <span class="text-white d-block">500 Terry Francine Street<br>San Francisco, CA 94158</span>
+
+                <a class="text-decoration-none text-white mt-4" href="#">Privacy Policy</a>
+
+                <div class="d-flex flex-row align-items-center justify-content-start mt-4">
+                    <a class="text-decoration-none me-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg>
+                    </a>
+                    <a class="text-decoration-none mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg>
+                    </a>
+                    <a class="text-decoration-none mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2200" class="bottom p-4 mt-5 pt-5">
+            <p class="text-white fs-3 fw-lighter">Ready to Make Your Dreams Come True?<a class="text-white" href="#">
+                    Reach Out Today</a></p>
+            <p class="text-white fw-light">© 2035 by Finnegan & Fahr. Made with <a class="text-white">Wix Studio™</a>
+            </p>
+        </div>
+    </section>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
