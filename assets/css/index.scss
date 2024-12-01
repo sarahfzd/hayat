@@ -1,0 +1,80 @@
+body {
+    background-color: #ececec;
+    overflow-x: hidden;
+
+    .parallax {
+        background-image: url("/assets/images/top-background.jpeg");
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .section-header {
+        .top {
+            .menu {
+                .offcanvas {
+                    background-color: #264b3b;
+                }
+            }
+        }
+    }
+
+    .section-top-category {
+        .right {
+            margin-top: 25%;
+        }
+    }
+
+    .section-top-services {
+        margin-top: 10%;
+    }
+
+    .section-middle-content-bg {
+        background-color: white;
+    }
+
+    .section-content-video {
+        background-color: #172e24;
+        padding-top: 10%;
+
+        .left {
+            video {
+                height: 100vh;
+                object-fit: cover;
+            }
+        }
+
+        .right {
+            overflow-y: scroll;
+            max-height: 100vh;
+        }
+    }
+
+    .section-bottom-parallax-bg {
+        padding-top: 10%;
+        background-color: #ecf3d7;
+        padding-bottom: 10%;
+
+        .bottom-parallax {
+            background-image: url("/assets/images/bottom-parallax.jpeg");
+            height: 90vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    }
+
+    .section-testimonial {
+        padding-top: 10%;
+
+    }
+
+    .section-footer {
+        background-color: #172e24;
+    }
+}

@@ -1,0 +1,23 @@
+body {
+    #bg-light-green {
+        background-color: #ecf3d7;
+        padding-bottom: 5%;
+        padding-top: 10%;
+
+        .parallax-about-us {
+            background-image: url("/assets/images/about-us-parallax.jpeg");
+            height: 95vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    }
+    .section-about-us-content{
+        background-color: #ffffff;
+        padding-bottom: 10%;
+        padding-top: 10%;
+
+    }
+}

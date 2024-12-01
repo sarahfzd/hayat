@@ -1,0 +1,12 @@
+@media only screen and (max-width: 767px) {
+    body{
+         .section-bottom-parallax-bg .bottom-parallax {
+            background-image: url(/assets/images/bottom-parallax.jpeg);
+            height: 30vh;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
