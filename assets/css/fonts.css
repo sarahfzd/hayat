@@ -1,17 +1,3 @@
-@font-face {
-    font-family: 'SpaceGrotesk';
-    src: url('assets/fonts/SpaceGrotesk-Regular.ttf')format('truetype'),
-}
-
-@font-face {
-    font-family: 'Helvetica';
-    src: url('assets/fonts/Helvetica.woff')format('woff');
-}
-
-.helvetica{
-    font-family: Helvetica;
-}
-
-.spacegrotesk {
-    font-family: SpaceGrotesk;
+* {
+    font-family: NatoSans;
 }
